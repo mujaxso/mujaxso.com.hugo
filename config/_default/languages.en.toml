@@ -1,0 +1,76 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Mujahid Siyam"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Mujahid Siyam"
+  email = "mujaxso@proton.me"
+  image = "https://avatars.githubusercontent.com/u/224736596?v=4"
+  imageQuality = 96
+  headline = "a soft/hardware architect of high-end solutions and full-stack DevSecOps Magician."
+  bio = "Software Engineer & DevSecOps Specialist, open source advocate, passionate about building secure, scalable, and efficient software."
+links = [
+    { email = "mailto:mujaxso@proton.me" },
+    { link = "https://mujaxso.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { blogger = "https://username.blogspot.com/" },
+    # { bluesky = "https://bsky.app/profile/username" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    { github = "https://github.com/mujaxso" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { hashnode = "https://username.hashnode.dev" },
+    { instagram = "https://instagram.com/mujaxso" },
+    # { itch-io = "https://username.itch.io" },
+    # { keybase = "https://keybase.io/username" },
+    # { keyoxide = "https://keyoxide.org/URI" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    { linkedin = "https://linkedin.com/in/mujaxso" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { matrix = "https://matrix.to/#/URI" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { orcid = "https://orcid.org/userid" },
+    { patreon = "https://www.patreon.com/mujaxso" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { researchgate = "https://www.researchgate.net/profile/username" },
+    # { signal = "https://signal.me/#eu/userid" },
+    # { slack = "https://workspace.url/team/userid" },
+    { snapchat = "https://snapchat.com/add/mujaxso" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { spotify = "https://open.spotify.com/user/userid" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { threads = "https://www.threads.net/@username" },
+    { tiktok = "https://tiktok.com/@mujaxso" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://twitter.com/mujaxso" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    { youtube = "https://youtube.com/@mujaxso" },
+    # { ko-fi = "https://ko-fi.com/username" },
+    # { codeberg = "https://codeberg.org/username"},
+  ]
