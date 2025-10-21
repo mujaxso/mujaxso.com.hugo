@@ -1,0 +1,9 @@
+name = "Mujahid Siyam"
+image = "img/avatar.jpg"
+headline = "Software Engineer | AI/ML | DevSecOps | Musician"
+bio = "Specializing in artificial intelligence, data science engineering, and DevSecOps architecture."
+
+[links]
+github = "https://github.com/mujaxso"
+email = "mailto:mujaxso@proton.me"
+# Add other social links as needed

@@ -1,0 +1,68 @@
+/* Global background for all pages - article pages AND list pages */
+body.single,
+body.list {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Content wrapper with semi-transparent overlay - for article pages */
+.single main {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+}
+
+/* Content wrapper for list/archive pages (projects page) */
+.list main {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+}
+
+/* Dark mode for article pages */
+.dark.single main {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Dark mode for list pages */
+.dark.list main {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Optional: Gradient overlay for better aesthetics */
+body.single::before,
+body.list::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Ensure content stays above background */
+.single article .article-content,
+.list .list-pages {
+  position: relative;
+  z-index: 1;
+}
+
+/* Project cards on list page */
+.list article.project-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.dark .list article.project-card {
+  background: rgba(0, 0, 0, 0.75);
+}
